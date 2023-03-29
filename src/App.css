@@ -19,6 +19,7 @@ body {
   
   background-color: #313a48;
   border-radius: 15px;
+  
 }
 .adviceContainer{
   height: 130px;
@@ -39,8 +40,8 @@ body {
 }
 
 p {
-  font-family: "Manrope";
-  font-style: normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ 
   font-weight: 800;
   font-size: 28px;
   line-height: 38px;
