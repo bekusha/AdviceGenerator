@@ -1,27 +1,21 @@
-@media (max-width) {
-  
-}
-
 body {
   background-color: #202733;
   display: grid;
   place-items: center;
   display: grid;
   place-items: center;
-
 }
 
 .container {
- position: relative;
+  position: relative;
   margin-top: 223px;
   width: 540px;
   height: 332px;
-  
+
   background-color: #313a48;
   border-radius: 15px;
-  
 }
-.adviceContainer{
+.adviceContainer {
   height: 130px;
   padding: 0px 20px;
 }
@@ -32,7 +26,7 @@ body {
   font-weight: 800;
   font-size: 13px;
   line-height: 18px;
-  
+
   text-align: center;
   letter-spacing: 4.08571px;
 
@@ -40,8 +34,8 @@ body {
 }
 
 p {
-  font-family: Georgia, 'Times New Roman', Times, serif;
- 
+  font-family: Georgia, "Times New Roman", Times, serif;
+
   font-weight: 800;
   font-size: 28px;
   line-height: 38px;
@@ -57,7 +51,6 @@ p {
   display: flex;
   margin-top: 40px;
   margin-bottom: 79px;
-  
 }
 
 .leftLine {
@@ -78,10 +71,32 @@ p {
   place-items: center;
   position: absolute;
   top: 90%;
-  left: 43%;
+  left: 44%;
 }
 
-.button:hover{
-  background: #53FFAA;
-box-shadow: 0px 0px 40px #53FFAA;
+.button:hover {
+  background: #53ffaa;
+  box-shadow: 0px 0px 40px #53ffaa;
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 350px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .leftLine {
+    display: none;
+  }
+  .rightLine {
+    display: none;
+  }
+  .lineLogo {
+    justify-content: center;
+    margin-left: 5px;
+  }
+  .button {
+    left: 40%;
+  }
 }
