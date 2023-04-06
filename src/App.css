@@ -81,7 +81,7 @@ p {
 
 @media (max-width: 375px) {
   .container {
-    width: 350px;
+    width: 351px;
   }
   p {
     font-size: 20px;
@@ -95,6 +95,7 @@ p {
   .lineLogo {
     justify-content: center;
     margin-left: 5px;
+    display: none;
   }
   .button {
     left: 40%;
