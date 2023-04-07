@@ -4,8 +4,6 @@ import shape from "./Shape.png";
 import logo from "./Group.png";
 import line from "./Rectangle.png";
 function App() {
-  let array = ["asfasf", "adfafdaf"];
-
   const arr = [
     "Take time to know yourself. ",
     "A narrow focus brings big results.",
@@ -37,13 +35,13 @@ function App() {
         <div className="leftLine">
           <img src={line} alt="" />
         </div>
-        <img className="logo" src={logo} />
+        <img className="logo" src={logo} alt="" />
         <div className="rightLine">
           <img src={line} alt="" />
         </div>
       </div>
       <div className="button" onClick={randomArrItem}>
-        <img src={shape} />
+        <img src={shape} alt="" />
       </div>
     </div>
   );
